@@ -1,0 +1,24 @@
+﻿  glad.c
+  main.cpp
+C:\Users\MyNam\source\repos\Shooting Demo\Shooting Demo\main.cpp(410,21): warning C4018: '<': signed/unsigned mismatch
+main.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetPrimaryMonitor referenced in function "void __cdecl process_keyboard_input(struct GLFWwindow *)" (?process_keyboard_input@@YAXPAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwGetVideoMode referenced in function "void __cdecl process_keyboard_input(struct GLFWwindow *)" (?process_keyboard_input@@YAXPAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl process_keyboard_input(struct GLFWwindow *)" (?process_keyboard_input@@YAXPAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwSetWindowMonitor referenced in function "void __cdecl process_keyboard_input(struct GLFWwindow *)" (?process_keyboard_input@@YAXPAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwSetFramebufferSizeCallback referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSetInputMode referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "void __cdecl process_keyboard_input(struct GLFWwindow *)" (?process_keyboard_input@@YAXPAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwGetMouseButton referenced in function "void __cdecl process_keyboard_input(struct GLFWwindow *)" (?process_keyboard_input@@YAXPAUGLFWwindow@@@Z)
+main.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetTime referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+main.obj : error LNK2019: unresolved external symbol _glfwGetProcAddress referenced in function _main
+C:\opengl\libs\glfw3.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\MyNam\source\repos\Shooting Demo\Debug\Shooting Demo.exe : fatal error LNK1120: 19 unresolved externals
