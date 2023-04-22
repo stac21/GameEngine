@@ -1,0 +1,16 @@
+quit 256
+fullscreen 300
+shoot 0
+left 65
+toggle_flashlight 70
+up 32
+forwards 87
+down 341
+sprint 340
+right 68
+backwards 83
+increase_exposure 265
+decrease_exposure 264
+print_stats 80
+pickup_item 69
+something 5
